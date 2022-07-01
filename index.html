@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question</title>
+</head>
+<body>
+    <div class="container" style="border: 1px solid gray;">
+
+    
+        <form action="">
+            <div>
+                <label for="brFiyat">Birim fiyatı:</label>
+                <input type="text" id="brFiyat" name="brFiyat"><br><br>
+            </div>
+            <div>
+                <label for="miktar">Miktar:</label>
+                <input type="text" id="miktar" name="miktar" ><br><br>
+            </div>
+            <div>
+                <label for="toplamTutar">Toplam Tutar:</label>
+                <input type="text" id="toplamTutar" name="toplamTutar" readonly><br><br>
+            </div>
+            <hr>
+            <div>
+                <label for="indirim">İndirim (%):</label>
+                <input type="text" id="indirim" name="indirim"><br><br>
+            </div>
+            <div>
+                <label for="indirimTutar">İndirim Tutarı:</label>
+                <input type="text" id="indirimTutar" name="indirimTutar"><br><br>
+            </div>
+            <div>
+                <label for="indirimliToplam">İndirimli Toplam Tutar:</label>
+                <input type="text" id="indirimliToplam" name="indirimliToplam" readonly><br><br>
+            </div>
+            <hr>
+            <div>
+                <label for="kdv"> KDV (%):</label>
+                <input type="text" id="kdv" name="kdv"><br><br>
+            </div>
+            <div>
+                <label for="kdvTutar">KDV Tutarı:</label>
+                <input type="text" id="kdvTutar" name="kdvTutar"><br><br>
+            </div>
+            <div>
+                <label for="kdvliToplam">KDV'li Toplam Tutar:</label>
+                <input type="text" id="kdvliToplam" name="kdvliToplam" readonly><br><br>
+            </div>
+            <br>
+            <input type="submit" value="Kaydet">
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
